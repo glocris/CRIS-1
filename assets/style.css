@@ -20,3 +20,29 @@ nav {
     letter-spacing: 5px;
     font-size: 20px;
 }
+
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style: none;
+}
+
+.nav-links a {
+    color: rgb(247, 243, 243);
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.burger{
+    display: none;
+}
+.burger div{
+    width: 20px;
+    height: 3px;
+    background-color: rgb(247, 243, 243);
+    margin: 2px;
+}
